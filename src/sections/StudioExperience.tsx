@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { features } from "@/types/features";
+import Image from "next/image";
 
 export default function StudioExperience() {
   return (
@@ -35,7 +36,7 @@ export default function StudioExperience() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="lg:col-span-6 relative h-[400px] sm:h-[500px] rounded-3xl overflow-hidden border border-white/[0.08] bg-white/[0.01]"
           >
-            <img
+            <Image
               src="https://images.pexels.com/photos/2186023/pexels-photo-2186023.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt="Design interno do estúdio minimalista"
               className="w-full h-full object-cover grayscale brightness-[0.3] contrast-125"

@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Image from "next/image";
 
 export default function ParallaxBanner() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -24,7 +25,7 @@ export default function ParallaxBanner() {
         style={{ y: yImage }}
         className="absolute inset-0 w-full h-[130%] -top-[15%] pointer-events-none"
       >
-        <img
+        <Image
           src="https://images.unsplash.com/photo-1590247813693-5541f1c609fd?q=80&w=1600&auto=format&fit=crop"
           alt="Textura de agulha e tinta em estúdio dark"
           className="w-full h-full object-cover grayscale brightness-[0.25] contrast-125"

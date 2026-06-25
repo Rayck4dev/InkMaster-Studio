@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { careSteps } from "@/types/caresteps";
+import Image from "next/image";
 
 export default function StudioExperience() {
   const [activeTab, setActiveTab] = useState("fase1");
@@ -16,7 +17,7 @@ export default function StudioExperience() {
       <div className="max-w-6xl mx-auto flex flex-col gap-32">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-5 relative h-[500px] rounded-2xl overflow-hidden border border-white/[0.06]">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1552627019-947c3789ffb5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGF0dG9vJTIwYXJ0aXN0fGVufDB8fDB8fHwy"
               alt="Tatuador Principal"
               className="w-full h-full object-cover grayscale brightness-75 hover:scale-105 transition-transform duration-700"
@@ -29,7 +30,7 @@ export default function StudioExperience() {
               O Residente
             </span>
             <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter text-white mb-6">
-              Arthur "Ink" Mendes
+              &quot;Arthur "Ink" Mendes&quot;
             </h2>
             <p className="text-zinc-400 text-sm leading-relaxed font-light mb-6">
               Com mais de uma década refinando a agulha na Europa e nos

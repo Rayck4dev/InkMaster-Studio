@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { portfolioData } from "@/types/tattos";
+import Image from "next/image";
 
 interface TattooItem {
   id: number;
@@ -115,7 +116,7 @@ export default function Portfolio() {
                       className="absolute inset-0 w-full h-full rounded-3xl overflow-hidden border border-white/[0.08] bg-ink-card shadow-[0_25px_60px_rgba(0,0,0,0.8)] flex flex-col select-none"
                     >
                       <div className="h-56 relative w-full flex-shrink-0">
-                        <img
+                        <Image
                           src={item.image}
                           alt={item.title}
                           className="w-full h-full object-cover grayscale brightness-[0.4]"
@@ -138,7 +139,9 @@ export default function Portfolio() {
                             </span>
                           </div>
                           <p className="text-zinc-400 text-xs font-light leading-relaxed line-clamp-3">
-                            "{item.story}"
+                            {'"'}
+                            {item.story}
+                            {'"'}
                           </p>
                         </div>
 
