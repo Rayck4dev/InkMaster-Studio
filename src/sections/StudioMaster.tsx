@@ -20,6 +20,9 @@ export default function StudioExperience() {
             <Image
               src="https://images.unsplash.com/photo-1552627019-947c3789ffb5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGF0dG9vJTIwYXJ0aXN0fGVufDB8fDB8fHwy"
               alt="Tatuador Principal"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              priority
               className="w-full h-full object-cover grayscale brightness-75 hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-ink-bg via-transparent to-transparent" />

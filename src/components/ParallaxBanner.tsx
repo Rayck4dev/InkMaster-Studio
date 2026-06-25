@@ -26,8 +26,11 @@ export default function ParallaxBanner() {
         className="absolute inset-0 w-full h-[130%] -top-[15%] pointer-events-none"
       >
         <Image
-          src="https://images.unsplash.com/photo-1590247813693-5541f1c609fd?q=80&w=1600&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?q=80&w=1600&auto=format&fit=crop"
           alt="Textura de agulha e tinta em estúdio dark"
+          fill
+          sizes="(max-width: 768px) 100vw, 50vw"
+          priority
           className="w-full h-full object-cover grayscale brightness-[0.25] contrast-125"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink-bg via-transparent to-ink-bg" />

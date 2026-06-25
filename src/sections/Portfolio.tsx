@@ -120,6 +120,9 @@ export default function Portfolio() {
                           src={item.image}
                           alt={item.title}
                           className="w-full h-full object-cover grayscale brightness-[0.4]"
+                          fill
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                          priority
                           draggable="false"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-ink-card to-transparent" />

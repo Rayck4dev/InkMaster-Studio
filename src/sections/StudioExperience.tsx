@@ -39,6 +39,9 @@ export default function StudioExperience() {
             <Image
               src="https://images.pexels.com/photos/2186023/pexels-photo-2186023.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt="Design interno do estúdio minimalista"
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              priority
               className="w-full h-full object-cover grayscale brightness-[0.3] contrast-125"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-ink-bg via-transparent to-transparent" />
