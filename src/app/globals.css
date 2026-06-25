@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #09090b;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+@keyframes shine {
+  100% {
+    left: 200%;
+  }
+}
+
+.animate-shine {
+  animation: shine 0.8s ease-in-out;
+}
