@@ -5,7 +5,7 @@ O **InkMaster Studio** é uma plataforma institucional moderna desenvolvida para
 Este repositório contém a interface da página principal (Landing Page), incluindo componentes dinâmicos, transições de carregamento cinematográficas, formulário multifásico e um sistema de design responsivo.
 
 <div align="center">
-  <img src="public/InkMaster_home.png" alt="InkMaster Studio Preview" width="100%" />
+  <img src="public/InkMaster_Home.png" alt="InkMaster Studio Preview" width="100%" />
 </div>
 
 <br />
@@ -15,7 +15,7 @@ Este repositório contém a interface da página principal (Landing Page), inclu
     "Onde a arte encontra a anatomia. Precisão cirúrgica na pele."
   </h3>
   
-[![Link do Projeto](https://img.shields.io/badge/Acesse%20o%20Site-Live%20Demo-white.svg?style=for-the-badge&logo=codeforces&logoColor=black)](https://inkmasterstudio.com)
+[![Link do Projeto](https://img.shields.io/badge/Acesse%20o%20Site-Live%20Demo-white.svg?style=for-the-badge&logo=codeforces&logoColor=black)](https://inkmaster-studio.vercel.app/)
 </div>
 
 ---
