@@ -45,7 +45,7 @@ Antes de começar, você precisará ter o [Node.js](https://nodejs.org/) instala
 
 1.  **Clone este repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/inkmaster-studio.git](https://github.com/seu-usuario/inkmaster-studio.git)
+    git clone https://github.com/seu-usuario/inkmaster-studio.git
     ```
 
 2.  **Acesse a pasta do projeto:**
