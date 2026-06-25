@@ -30,7 +30,7 @@ export default function StudioExperience() {
               O Residente
             </span>
             <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter text-white mb-6">
-              &quot;Arthur "Ink" Mendes&quot;
+              &quot;Arthur &apos;Ink&apos; Mendes&quot;
             </h2>
             <p className="text-zinc-400 text-sm leading-relaxed font-light mb-6">
               Com mais de uma década refinando a agulha na Europa e nos
